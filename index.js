@@ -32,7 +32,6 @@ async function run() {
         // Create collectin for and user Informations
         const userCollection = client.db('ArtCraft').collection('User');
 
-        // FOR CREATE ITEMS RELATED ELEMENT
 
         // get operetion for get item on server side
         app.get('/all-item', async (req, res) => {
